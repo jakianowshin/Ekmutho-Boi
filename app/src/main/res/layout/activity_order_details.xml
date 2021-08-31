@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/border"
+    android:padding="5dp"
+    android:gravity="center"
+   >
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorWhite"
+                android:gravity="center"
+                android:textColor="@color/colorBtn"
+                android:textColorHint="@color/colorBtn"
+                android:textSize="14sp"
+                android:id="@+id/pro_id"
+                android:textStyle="bold">
+
+            </EditText>
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:orientation="horizontal">
+
+                <EditText
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:background="@color/colorWhite"
+                    android:textColor="@color/colorBtn"
+                    android:textColorHint="@color/colorBtn"
+                    android:id="@+id/pro_name"
+                    android:textSize="14sp"
+                    android:textStyle="bold">
+
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/singel_price"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:background="@color/colorWhite"
+                    android:textColor="@color/colorBtn"
+                    android:textSize="14sp"
+                    android:textStyle="bold">
+
+                </EditText>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorWhite"
+                    android:textColor="@color/colorBtn"
+                    android:gravity="center"
+                    android:textColorHint="@color/colorBtn"
+                    android:textSize="14sp"
+                    android:id="@+id/pro_qty"
+                    android:textStyle="bold">
+
+                </EditText>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorWhite"
+                    android:textColor="@color/colorBtn"
+                    android:id="@+id/pro_total"
+                    android:textColorHint="@color/colorBtn"
+                    android:textSize="14sp"
+                    android:gravity="center"
+                    android:textStyle="bold">
+
+                </EditText>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        </LinearLayout>
+
+
